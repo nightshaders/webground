@@ -4,7 +4,7 @@ current_dir :=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 default: webserver site web
 
 site: .FORCE
-	gulp site
+	node_modules/.bin/gulp site
 
 webserver:
 	go install ywebserver
