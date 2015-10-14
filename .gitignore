@@ -23,10 +23,8 @@ hs_err_pid*
 # OSX BS
 *.DS_Store
 
-# IntelliJ
-.idea/*
-
 # misc
+.idea/
 doc/
 docs/
 node_modules/
